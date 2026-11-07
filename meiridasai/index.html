@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日大赛主题大赛骑乘-主题大赛骑乘规则与看点_每日大赛骑乘榜单与参赛指南</title>
+<meta name="description" content="每日大赛主题大赛骑乘专题页，梳理每日大赛主题大赛骑乘的赛制规则、主题看点、参赛作品榜单与观看指南，帮你快速了解主题大赛骑乘怎么玩、有哪些热门作品值得关注，并提供常见问题与最新动态。">
+<meta name="keywords" content="每日大赛主题大赛骑乘,主题大赛骑乘,每日大赛骑乘榜单,骑乘主题大赛规则,每日大赛参赛指南">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23161a2b'/%3E%3Cpath d='M14 44l12-24 8 14 6-9 10 19z' fill='%23ffb648'/%3E%3Ccircle cx='46' cy='18' r='6' fill='%2346d6c0'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#151a26;
+  --ink-2:#3b4356;
+  --ink-3:#6b7488;
+  --line:#e6e9f0;
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --brand:#e8551f;
+  --brand-2:#ff8b3d;
+  --brand-soft:#fff1e8;
+  --acc:#1f7a8c;
+  --acc-soft:#e6f4f6;
+  --gold:#b8791b;
+  --radius:16px;
+  --shadow:0 6px 20px rgba(21,26,38,.07);
+  --shadow-hover:0 12px 30px rgba(21,26,38,.13);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 14px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.section{padding:44px 0}
+.section-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+.section-hd h2{font-size:24px;letter-spacing:.5px;position:relative;padding-left:14px}
+.section-hd h2::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:3px;background:linear-gradient(180deg,var(--brand),var(--brand-2))}
+.section-hd .sub{color:var(--ink-3);font-size:14px}
+.more-link{font-size:14px;color:var(--brand);border:1px solid var(--brand-soft);background:var(--brand-soft);padding:6px 14px;border-radius:999px;transition:.2s}
+.more-link:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+
+/* nav */
+.topbar{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;gap:22px;height:64px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:18px;letter-spacing:.5px;white-space:nowrap}
+.logo .mark{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--brand),var(--brand-2));display:grid;place-items:center;color:#fff;font-size:15px;font-weight:900;box-shadow:0 4px 10px rgba(232,85,31,.35)}
+.logo em{font-style:normal;color:var(--brand)}
+.nav-links{display:flex;gap:6px;flex:1;overflow:hidden}
+.nav-links a{font-size:14.5px;color:var(--ink-2);padding:7px 11px;border-radius:9px;transition:.18s;white-space:nowrap}
+.nav-links a:hover{background:var(--brand-soft);color:var(--brand)}
+.nav-cta{font-size:14px;padding:9px 18px;border-radius:10px;background:var(--ink);color:#fff;white-space:nowrap;transition:.2s}
+.nav-cta:hover{background:var(--brand)}
+.nav-toggle{display:none;font-size:22px;background:none;border:0;color:var(--ink);cursor:pointer}
+
+/* hero */
+.hero{background:
+  radial-gradient(900px 320px at 82% -10%,rgba(255,139,61,.28),transparent 65%),
+  radial-gradient(700px 300px at 8% 110%,rgba(31,122,140,.22),transparent 60%),
+  linear-gradient(160deg,#161a2b 0%,#232a44 55%,#1a1f33 100%);
+  color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-90px;top:-90px;width:340px;height:340px;border-radius:50%;border:1px solid rgba(255,255,255,.09)}
+.hero-inner{display:grid;grid-template-columns:1.25fr .75fr;gap:38px;padding:56px 0 54px;align-items:center;position:relative;z-index:2}
+.hero h1{font-size:38px;letter-spacing:.5px;margin-bottom:16px}
+.hero h1 .hl{color:var(--brand-2)}
+.hero-lead{font-size:16px;color:#cfd5e6;max-width:640px;margin-bottom:10px}
+.hero-lead.small{font-size:14.5px;color:#a8b0c8}
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 22px}
+.hero-tags span{font-size:13px;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.14);color:#e6eaf5}
+.searchbar{display:flex;background:#fff;border-radius:12px;padding:6px;max-width:560px;box-shadow:0 10px 26px rgba(0,0,0,.25)}
+.searchbar input{flex:1;border:0;outline:0;font-size:15px;padding:9px 12px;color:var(--ink);background:transparent}
+.searchbar button{border:0;cursor:pointer;background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;font-size:15px;font-weight:700;padding:10px 24px;border-radius:9px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.hero-btns a{font-size:14px;padding:9px 16px;border-radius:10px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);color:#eef1f8;transition:.2s}
+.hero-btns a:hover{background:var(--brand);border-color:var(--brand);transform:translateY(-2px)}
+.hero-side{display:grid;gap:12px}
+.mini-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);border-radius:14px;padding:14px 16px}
+.mini-card b{display:block;font-size:13px;color:var(--brand-2);letter-spacing:1px;margin-bottom:4px}
+.mini-card span{font-size:14px;color:#d5dbeb;line-height:1.6;display:block}
+.mini-card .num{font-size:22px;font-weight:800;color:#fff}
+
+/* quick cats */
+.cat-bar{display:grid;grid-template-columns:repeat(8,1fr);gap:12px;margin-top:-26px;position:relative;z-index:5}
+.cat-bar a{background:var(--card);border-radius:13px;padding:14px 10px;text-align:center;box-shadow:var(--shadow);font-size:13.5px;color:var(--ink-2);transition:.2s;border:1px solid var(--line)}
+.cat-bar a b{display:block;font-size:16px;color:var(--ink);margin-bottom:2px}
+.cat-bar a:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);color:var(--brand);border-color:var(--brand-soft)}
+
+/* cards */
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:.22s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+.cover{height:118px;background:linear-gradient(135deg,#232a44,#3a4568);position:relative;display:flex;align-items:flex-end;padding:12px}
+.cover.g2{background:linear-gradient(135deg,#e8551f,#ff8b3d)}
+.cover.g3{background:linear-gradient(135deg,#1f7a8c,#46c2b5)}
+.cover.g4{background:linear-gradient(135deg,#5b3f8f,#a97fd6)}
+.cover.g5{background:linear-gradient(135deg,#8c5a1f,#d9a441)}
+.cover.g6{background:linear-gradient(135deg,#24425f,#4a86b8)}
+.cover .rank{position:absolute;top:10px;left:12px;font-size:12px;font-weight:800;background:rgba(0,0,0,.35);color:#fff;padding:2px 9px;border-radius:999px}
+.cover .stat{font-size:12px;color:#fff;background:rgba(0,0,0,.34);padding:3px 9px;border-radius:999px}
+.card-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body h3{font-size:16.5px}
+.card-body h3 a:hover{color:var(--brand)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:12px;padding:2px 9px;border-radius:6px;background:var(--acc-soft);color:var(--acc)}
+.tag.warm{background:var(--brand-soft);color:var(--brand)}
+.tag.gold{background:#fdf4e3;color:var(--gold)}
+.desc{font-size:13.5px;color:var(--ink-3);line-height:1.7;margin:0}
+.meta{display:flex;gap:14px;font-size:12.5px;color:var(--ink-3);margin-top:auto;padding-top:8px;border-top:1px dashed var(--line)}
+
+/* list */
+.updates{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.upd-item{display:grid;grid-template-columns:96px 1fr auto;gap:16px;padding:14px 20px;border-bottom:1px solid var(--line);align-items:center;transition:.18s}
+.upd-item:last-child{border-bottom:0}
+.upd-item:hover{background:#fbfcfe}
+.upd-item .date{font-size:13px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.upd-item h4{font-size:15.5px;margin-bottom:2px}
+.upd-item p{margin:0;font-size:13.5px;color:var(--ink-3)}
+.badge{font-size:12px;padding:3px 10px;border-radius:999px;background:var(--brand-soft);color:var(--brand);white-space:nowrap}
+
+/* deep analysis */
+.analysis{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:30px 32px}
+.analysis h3{font-size:18px;margin:26px 0 10px;color:var(--ink)}
+.analysis h3:first-child{margin-top:0}
+.analysis p{font-size:15px;color:var(--ink-2);line-height:1.9}
+.analysis .quote{border-left:3px solid var(--brand);background:var(--brand-soft);padding:12px 16px;border-radius:0 10px 10px 0;color:var(--ink-2);font-size:14.5px;margin:16px 0}
+.split{display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:start}
+.side-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+.side-card h3{font-size:16px;margin-bottom:14px}
+.side-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.side-list li{font-size:14px;color:var(--ink-2);padding-left:16px;position:relative;line-height:1.6}
+.side-list li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:2px;background:var(--brand-2)}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow);transition:.2s}
+.faq:hover{border-color:#d8def0}
+.faq h3{font-size:15.5px;margin-bottom:8px;display:flex;gap:9px;align-items:flex-start}
+.faq h3 .q{flex:none;width:22px;height:22px;border-radius:6px;background:var(--brand-soft);color:var(--brand);font-size:12.5px;font-weight:800;display:grid;place-items:center;margin-top:2px}
+.faq p{font-size:14px;color:var(--ink-3);margin:0;line-height:1.8}
+
+/* comments */
+.cmt-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.cmt{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:14px 16px;box-shadow:var(--shadow)}
+.cmt-hd{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.avatar{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:800;color:#fff;flex:none}
+.cmt-hd b{font-size:14px}
+.cmt-hd span{font-size:12px;color:var(--ink-3);margin-left:auto}
+.cmt p{font-size:13.8px;color:var(--ink-2);margin:0;line-height:1.75}
+
+/* news */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.news{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:var(--shadow);transition:.2s;display:flex;flex-direction:column;gap:8px}
+.news:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
+.news .d{font-size:12.5px;color:var(--brand);font-weight:700}
+.news h3{font-size:15.5px}
+.news p{font-size:13.5px;color:var(--ink-3);margin:0}
+
+/* data panel */
+.panel{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.panel-item{background:linear-gradient(160deg,#fff,#fbfcfe);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center;box-shadow:var(--shadow)}
+.panel-item .v{font-size:26px;font-weight:800;color:var(--brand)}
+.panel-item .k{font-size:13px;color:var(--ink-3);margin-top:2px}
+
+/* guide */
+.guide{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.guide-item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+.guide-item .n{font-size:13px;font-weight:800;color:var(--acc);letter-spacing:1px;margin-bottom:6px}
+.guide-item h3{font-size:16px;margin-bottom:6px}
+.guide-item p{font-size:13.8px;color:var(--ink-3);margin:0;line-height:1.75}
+
+/* footer */
+footer{background:#141828;color:#a9b1c6;margin-top:20px;padding:44px 0 26px;font-size:13.8px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;margin-bottom:30px}
+.foot-grid h4{color:#fff;font-size:15px;margin-bottom:12px}
+.foot-grid a{display:block;padding:4px 0;color:#a9b1c6;transition:.18s}
+.foot-grid a:hover{color:var(--brand-2)}
+.foot-about p{line-height:1.8;color:#8b93a8;margin:0 0 10px}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#79829b;font-size:12.5px}
+.disclaimer{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:12px 16px;color:#8b93a8;font-size:12.5px;line-height:1.7;margin-top:18px}
+
+/* responsive */
+@media (max-width:1000px){
+  .hero-inner{grid-template-columns:1fr;padding:44px 0}
+  .grid-3,.news-grid,.guide{grid-template-columns:repeat(2,1fr)}
+  .cat-bar{grid-template-columns:repeat(4,1fr)}
+  .split{grid-template-columns:1fr}
+  .panel{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .nav-links{display:none}
+  .nav-toggle{display:block;margin-left:auto}
+}
+@media (max-width:640px){
+  body{font-size:15px}
+  .hero h1{font-size:27px}
+  .grid-3,.grid-2,.grid-4,.news-grid,.guide,.faq-grid,.cmt-wrap{grid-template-columns:1fr}
+  .cat-bar{grid-template-columns:repeat(2,1fr);margin-top:-18px}
+  .upd-item{grid-template-columns:1fr;gap:4px}
+  .analysis{padding:22px 18px}
+  .section{padding:32px 0}
+  .section-hd h2{font-size:20px}
+  .panel{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 顶部导航 -->
+<header class="topbar" id="top-nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="/#top-nav"><span class="mark">骑</span>每日大赛<em>·骑乘</em></a>
+    <nav class="nav-links">
+      <a href="/#hero">专题首页</a>
+      <a href="/#hot-list">热门推荐</a>
+      <a href="/#updates">最新动态</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">参赛指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">用户评论</a>
+      <a href="/#news">相关资讯</a>
+    </nav>
+    <a class="nav-cta" href="/#hot-list">查看榜单</a>
+    <button class="nav-toggle" aria-label="菜单">≡</button>
+  </div>
+</header>
+
+<!-- 首屏 Banner -->
+<section class="hero" id="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <h1>每日大赛主题大赛骑乘：<span class="hl">主题赛制</span>与骑乘看点全解析</h1>
+      <p class="hero-lead">每日大赛主题大赛骑乘围绕每日主题命题展开，把骑乘类作品的表现力、节奏与创意放在同一套赛制里比较。这里汇总参赛规则、热门榜单、作品看点与更新动态，帮你在有限时间里挑出真正值得看的主题赛作品。</p>
+      <p class="hero-lead small">从主题理解到骑乘表现，从榜单排名到评审偏好，一页看明白每日大赛主题大赛骑乘的门道。</p>
+      <div class="hero-tags">
+        <span>主题命题</span><span>骑乘表现</span><span>赛制规则</span><span>榜单排名</span><span>作品看点</span><span>参赛指南</span>
+      </div>
+      <form class="searchbar" onsubmit="return false">
+        <input type="text" placeholder="搜索：主题大赛骑乘 / 骑乘榜单 / 每日主题赛规则">
+        <button type="submit">搜索</button>
+      </form>
+      <div class="hero-btns">
+        <a href="/#hot-list">热门骑乘作品</a>
+        <a href="/#deep">赛制深度解析</a>
+        <a href="/#guide">新手指南</a>
+        <a href="/#updates">今日更新</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#news">赛事资讯</a>
+        <a href="/#panel">数据看板</a>
+        <a href="/#comments">观众评论</a>
+      </div>
+    </div>
+    <aside class="hero-side">
+      <div class="mini-card">
+        <b>今日主题</b>
+        <span>「城市夜行·骑乘篇」——强调路线感与节奏切换</span>
+      </div>
+      <div class="mini-card">
+        <b>榜单更新</b>
+        <span class="num">2026.11.07</span>
+        <span>每日大赛主题大赛骑乘榜单已刷新，前五名出现两席新面孔。</span>
+      </div>
+      <div class="mini-card">
+        <b>参赛入口</b>
+        <span>主题赛按日开放，骑乘类作品需在当日 23:59 前提交。</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- 快捷分类 -->
+<div class="wrap">
+  <nav class="cat-bar" aria-label="快捷分类">
+    <a href="/#cat"><b>主题解读</b>命题方向</a>
+    <a href="/#cat"><b>骑乘技巧</b>表现要点</a>
+    <a href="/#hot-list"><b>热门榜单</b>实时排名</a>
+    <a href="/#updates"><b>今日更新</b>新作上线</a>
+    <a href="/#deep"><b>赛制规则</b>评分逻辑</a>
+    <a href="/#guide"><b>参赛指南</b>新手入门</a>
+    <a href="/#news"><b>赛事资讯</b>动态追踪</a>
+    <a href="/#faq"><b>常见问题</b>答疑解惑</a>
+  </nav>
+</div>
+
+<!-- 内容简介 -->
+<section class="section" id="intro">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>每日大赛主题大赛骑乘是什么</h2>
+      <span class="sub">专题定位 · 阅读约 3 分钟</span>
+    </div>
+    <div class="split">
+      <div class="analysis">
+        <p>「每日大赛主题大赛骑乘」指的是一类以“每日主题”为核心驱动、以“骑乘”表现为主要考察方向的赛事内容聚合。它的核心需求很直接：观众想弄清今天比什么、评分看什么、哪些作品值得看；参赛者想知道主题怎么理解、骑乘环节如何出彩、怎样避开常见扣分点。这个专题页正是围绕这两类需求搭建的。</p>
+        <p>与一般的固定赛制比赛不同，每日大赛的最大特点是主题每天更换，骑乘类作品的评价维度也随之浮动。有的主题偏重路线设计与节奏推进，有的侧重画面稳定与转场衔接，还有的强调创意表达和情绪传达。因此，单看排名并不够，理解主题与骑乘表现之间的匹配关系，才是读懂这个赛事的关键。</p>
+        <p>本页适合几类人：想快速了解每日大赛主题大赛骑乘赛制的入门观众、需要挑选作品观看的普通用户、准备参赛但还不熟悉评审偏好的创作者，以及希望持续追踪榜单变化的长期关注者。页面提供了热门推荐、最新更新、深度解析、参赛指南、FAQ、用户评论和赛事资讯等多个板块，既能当作入门索引，也能当作日常追榜的入口。</p>
+        <p>值得收藏的原因是：主题赛的变化节奏快，单个作品的评价往往和当天的主题高度绑定。把这一页加入书签，你可以在同一处看到当日主题、榜单变化、规则说明和观众反馈，减少来回翻找的时间。对长期关注骑乘类内容的人来说，这种“主题 + 骑乘 + 榜单”的集中呈现，比零散的信息流更有参考价值。</p>
+        <div class="quote">读法建议：先看今日主题，再看榜单前五，最后回到深度解析确认评分维度。这样看，不容易被单条评论带偏判断。</div>
+      </div>
+      <aside class="side-card">
+        <h3>本页速览</h3>
+        <ul class="side-list">
+          <li>今日主题与命题方向说明</li>
+          <li>热门骑乘作品榜单与看点</li>
+          <li>赛制规则与评分维度拆解</li>
+          <li>新手参赛的避坑提示</li>
+          <li>常见问题与观众真实反馈</li>
+          <li>赛事资讯与更新节奏</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- 分类入口 -->
+<section class="section" id="cat">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>主题大赛骑乘分类入口</h2>
+      <span class="sub">按方向快速进入</span>
+    </div>
+    <div class="grid-4">
+      <a class="card" href="/#hot-list"><div class="card-body"><h3>主题命题解读</h3><p class="desc">拆解每日主题的关键词与隐藏考点，判断哪些方向更容易出彩。</p><div class="tags"><span class="tag">命题</span><span class="tag warm">解读</span></div></div></a>
+      <a class="card" href="/#deep"><div class="card-body"><h3>骑乘表现技巧</h3><p class="desc">路线节奏、转场衔接、稳定性控制，整理评审常看的几个细节。</p><div class="tags"><span class="tag">技巧</span><span class="tag warm">表现</span></div></div></a>
+      <a class="card" href="/#hot-list"><div class="card-body"><h3>热门作品榜单</h3><p class="desc">按当日热度与评分排序，快速锁定值得优先观看的作品。</p><div class="tags"><span class="tag">榜单</span><span class="tag gold">排名</span></div></div></a>
+      <a class="card" href="/#updates"><div class="card-body"><h3>今日更新追踪</h3><p class="desc">新提交作品、榜单变动与主题更换提醒，集中在一处查看。</p><div class="tags"><span class="tag">更新</span><span class="tag">动态</span></div></div></a>
+      <a class="card" href="/#guide"><div class="card-body"><h3>新手参赛指南</h3><p class="desc">从理解主题到完成提交，给第一次参加主题赛的人一条清晰路径。</p><div class="tags"><span class="tag">入门</span><span class="tag warm">指南</span></div></div></a>
+      <a class="card" href="/#faq"><div class="card-body"><h3>规则与答疑</h3><p class="desc">评分构成、提交时间、主题偏离判定等高频问题集中回答。</p><div class="tags"><span class="tag">规则</span><span class="tag">答疑</span></div></div></a>
+      <a class="card" href="/#comments"><div class="card-body"><h3>观众讨论区</h3><p class="desc">真实观众对骑乘作品的表现评价、争议点与推荐理由。</p><div class="tags"><span class="tag">评论</span><span class="tag">讨论</span></div></div></a>
+      <a class="card" href="/#news"><div class="card-body"><h3>赛事资讯</h3><p class="desc">主题调整、榜单机制变化与优秀作品动向的资讯汇总。</p><div class="tags"><span class="tag">资讯</span><span class="tag gold">动态</span></div></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- 热门推荐 -->
+<section class="section" id="hot-list">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>每日大赛主题大赛骑乘热门作品</h2>
+      <a class="more-link" href="/#panel">查看数据看板</a>
+    </div>
+    <div class="grid-3">
+      <article class="card">
+        <div class="cover"><span class="rank">No.1</span><span class="stat">热度 98.6</span></div>
+        <div class="card-body">
+          <h3><a href="/#hot-list">夜航线·骑乘版</a></h3>
+          <div class="tags"><span class="tag warm">主题契合</span><span class="tag">节奏流畅</span><span class="tag">转场自然</span></div>
+          <p class="desc">围绕“城市夜行”主题展开，路线选择有明显叙事意图，中段节奏切换干净，是本轮评分最稳的一作。</p>
+          <div class="meta"><span>评分 9.4</span><span>更新于 11-07</span><span>观众 2.3w</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover g2"><span class="rank">No.2</span><span class="stat">热度 96.1</span></div>
+        <div class="card-body">
+          <h3><a href="/#hot-list">逆风坡道</a></h3>
+          <div class="tags"><span class="tag warm">难度高</span><span class="tag">稳定性强</span><span class="tag gold">评审推荐</span></div>
+          <p class="desc">坡道路段的处理是最大亮点，起伏控制均衡，画面稳定性出色，缺点是主题表达稍显保守。</p>
+          <div class="meta"><span>评分 9.2</span><span>更新于 11-07</span><span>观众 1.9w</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover g3"><span class="rank">No.3</span><span class="stat">热度 93.4</span></div>
+        <div class="card-body">
+          <h3><a href="/#hot-list">雨后环线</a></h3>
+          <div class="tags"><span class="tag">画面质感</span><span class="tag">情绪传达</span><span class="tag warm">主题呼应</span></div>
+          <p class="desc">把雨后湿滑路面的不确定性转化为节奏变化，情绪铺陈完整，适合喜欢氛围感的观众。</p>
+          <div class="meta"><span>评分 8.9</span><span>更新于 11-06</span><span>观众 1.6w</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover g4"><span class="rank">No.4</span><span class="stat">热度 91.0</span></div>
+        <div class="card-body">
+          <h3><a href="/#hot-list">双人交替骑乘</a></h3>
+          <div class="tags"><span class="tag">配合</span><span class="tag">创意加分</span><span class="tag">节奏对比</span></div>
+          <p class="desc">罕见的交替结构，两人节奏互补，前半段铺垫略长，后半段完成度明显提升。</p>
+          <div class="meta"><span>评分 8.7</span><span>更新于 11-06</span><span>观众 1.4w</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover g5"><span class="rank">No.5</span><span class="stat">热度 88.5</span></div>
+        <div class="card-body">
+          <h3><a href="/#hot-list">老城窄巷</a></h3>
+          <div class="tags"><span class="tag">路线难度</span><span class="tag">细节处理</span><span class="tag gold">编辑推荐</span></div>
+          <p class="desc">窄巷空间限制下的路线选择很有想法，几处急转处理利落，缺点是结尾收得略仓促。</p>
+          <div class="meta"><span>评分 8.6</span><span>更新于 11-05</span><span>观众 1.2w</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover g6"><span class="rank">No.6</span><span class="stat">热度 86.2</span></div>
+        <div class="card-body">
+          <h3><a href="/#hot-list">清晨第一段</a></h3>
+          <div class="tags"><span class="tag">主题常规</span><span class="tag">稳定发挥</span><span class="tag">观感舒适</span></div>
+          <p class="desc">完成度不错但主题表达偏安全，适合作为入门参考，了解骑乘类作品的基本评分线。</p>
+          <div class="meta"><span>评分 8.3</span><span>更新于 11-05</span><span>观众 1.1w</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 最新更新 -->
+<section class="section" id="updates">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>最新更新与今日动态</h2>
+      <span class="sub">截至 2026-11-07</span>
+    </div>
+    <div class="updates">
+      <div class="upd-item"><span class="date">11-07 18:20</span><div><h4>今日主题「城市夜行·骑乘篇」已开放</h4><p>主题强调路线叙事与节奏切换，提交截止 23:59。</p></div><span class="badge">主题</span></div>
+      <div class="upd-item"><span class="date">11-07 17:45</span><div><h4>「夜航线·骑乘版」冲上榜首</h4><p>综合评分 9.4，主题契合度与转场处理获得较多正面反馈。</p></div><span class="badge">榜单</span></div>
+      <div class="upd-item"><span class="date">11-07 16:10</span><div><h4>「逆风坡道」评分回升至 9.2</h4><p>坡道段落的稳定性被评审重新计入加分项。</p></div><span class="badge">评分</span></div>
+      <div class="upd-item"><span class="date">11-07 14:30</span><div><h4>新增 12 件骑乘主题作品提交</h4><p>其中 3 件为首日参赛新作，等待评审复核。</p></div><span class="badge">提交</span></div>
+      <div class="upd-item"><span class="date">11-07 11:05</span><div><h4>规则页更新：主题偏离判定说明细化</h4><p>补充了骑乘类作品在主题表达上的三条判定参考。</p></div><span class="badge">规则</span></div>
+      <div class="upd-item"><span class="date">11-06 21:40</span><div><h4>「雨后环线」进入前三</h4><p>情绪表达与画面质感带动排名上升两位。</p></div><span class="badge">榜单</span></div>
+      <div class="upd-item"><span class="date">11-06 19:15</span><div><h4>明日主题预告：多段衔接</h4><p>预计重点考察连续路线中的节奏平衡与衔接处理。</p></div><span class="badge">预告</span></div>
+      <div class="upd-item"><span class="date">11-06 15:50</span><div><h4>「双人交替骑乘」创意分获认可</h4><p>交替结构被评价为当日最有辨识度的思路之一。</p></div><span class="badge">点评</span></div>
+      <div class="upd-item"><span class="date">11-05 20:25</span><div><h4>「老城窄巷」入选编辑推荐</h4><p>窄巷路线设计被列为空间利用的示范案例。</p></div><span class="badge">推荐</span></div>
+      <div class="upd-item"><span class="date">11-05 13:00</span><div><h4>本周主题赛参与量同比增长</h4><p>骑乘类作品提交数量较上周提升约 18%。</p></div><span class="badge">数据</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 深度解析 -->
+<section class="section" id="deep">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>每日大赛主题大赛骑乘深度解析</h2>
+      <span class="sub">赛制 · 评分 · 表现力</span>
+    </div>
+    <div class="split">
+      <article class="analysis">
+        <h3>一、主题命题：每日大赛的第一道门槛</h3>
+        <p>每日大赛主题大赛骑乘的赛制核心，是“每天一个主题”。这意味着作品之间的可比性建立在同一个命题之上，而不是靠绝对难度分高下。主题通常由几个关键词构成，比如“城市夜行”“多段衔接”“雨后路面”，这些词并不是装饰，而是评审判断作品是否切题的依据。理解主题的关键，不是把关键词生硬塞进作品，而是判断它指向的体验方向：是强调路线叙事，还是强调节奏控制，抑或强调环境与情绪的关系。</p>
+        <p>很多第一次参加主题赛的创作者会忽略这一点，把精力全放在骑乘动作本身，结果完成度不低却在主题契合度上失分。反过来，一些技术上并不复杂的作品，因为对主题理解准确、表达集中，反而拿到更高综合评价。这也是每日大赛主题大赛骑乘最值得琢磨的地方：它奖励的是“理解力 + 执行力”的组合，而不是单一维度的堆料。</p>
+        <h3>二、骑乘表现：评审到底看什么</h3>
+        <p>骑乘环节的评分通常围绕几个维度展开：路线选择的合理性、节奏推进的层次感、转场衔接的流畅度、画面与动作的稳定性，以及整体表达是否完整。路线选择是最容易被低估的一项，好的路线不只是难，而是能让观众看懂你想表达什么。节奏推进则决定了作品“好不好看”，前中后段是否有变化、有没有明显的拖沓或仓促，都会影响观感。</p>
+        <p>转场衔接是骑乘类作品的分水岭。顺畅的衔接会让观众忽略技术细节，专注在内容本身；生硬的切换则会让再好的段落也显得断裂。稳定性属于基础分，但往往在排名接近时起决定作用。至于整体表达，可以理解为“作品有没有一个说得清的重点”，这也是评审在主观分上最容易拉开差距的部分。</p>
+        <div class="quote">一句话总结：主题决定方向，路线决定结构，节奏决定观感，衔接决定完成度，稳定性决定下限。</div>
+        <h3>三、榜单与评分：排名不等于全部</h3>
+        <p>每日大赛主题大赛骑乘的榜单是动态的，评分会随着评审复核和观众反馈发生变化。排名靠前的作品通常在多个维度上比较均衡，但这不代表它们适合所有人。有的作品主题契合度极高，但节奏偏慢；有的作品技术难度突出，但情绪表达偏弱。观看时不妨先看榜单前五作为参考，再根据自己的偏好往后翻，往往能找到更对胃口的选择。</p>
+        <p>另外要注意，榜单的“热度”和“评分”是两个概念。热度反映讨论量，评分反映综合评价。讨论度高的作品不一定评分最高，评分高的作品也可能因为题材偏冷而讨论有限。理解这两者的差异，能帮你更理性地看待每日大赛主题大赛骑乘的榜单变化。</p>
+        <h3>四、适合人群与阅读建议</h3>
+        <p>这个专题适合三类读者：一是想快速了解赛事规则的入门观众，建议从内容简介和 FAQ 读起；二是准备参赛的创作者，建议重点看深度解析和参赛指南，尤其是主题偏离判定和评分维度部分；三是长期追榜的观众，建议关注最新更新和数据看板，掌握节奏变化。对骑乘类内容本身兴趣不大的读者，也可以把它当作理解“主题赛制”这类内容形式的样本。</p>
+        <p>最后提醒一点：每日大赛主题大赛骑乘的评价高度依赖当日主题，今天的第一名放到明天未必仍然领先。看榜单时带上“主题”这个前提，判断会更准确，也更不容易被单条评论影响。</p>
+      </article>
+      <aside class="side-card">
+        <h3>评分维度速查</h3>
+        <ul class="side-list">
+          <li>主题契合度：是否准确回应当日命题</li>
+          <li>路线设计：结构是否清晰、有表达意图</li>
+          <li>节奏推进：层次变化与观感流畅度</li>
+          <li>转场衔接：段落之间是否自然</li>
+          <li>稳定性：画面与动作的控制水平</li>
+          <li>整体表达：重点是否说得清</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- 参赛指南 -->
+<section class="section" id="guide">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>主题大赛骑乘体验与参赛指南</h2>
+      <span class="sub">从观看到参赛</span>
+    </div>
+    <div class="guide">
+      <div class="guide-item"><div class="n">STEP 01</div><h3>先读懂今日主题</h3><p>把主题关键词拆开，判断它强调的是路线、节奏还是情绪。方向错了，后面再努力也容易偏题。</p></div>
+      <div class="guide-item"><div class="n">STEP 02</div><h3>规划路线结构</h3><p>先定开头、中段和收尾各承担什么功能，再考虑难度分配。结构清楚比堆难度更有效。</p></div>
+      <div class="guide-item"><div class="n">STEP 03</div><h3>控制节奏层次</h3><p>避免全程同一节奏，前段铺垫、中段推进、后段收束，让观众有明确的观感变化。</p></div>
+      <div class="guide-item"><div class="n">STEP 04</div><h3>打磨转场衔接</h3><p>衔接不顺是常见扣分点。宁可减少段落数量，也要保证每个切换自然。</p></div>
+      <div class="guide-item"><div class="n">STEP 05</div><h3>检查稳定性</h3><p>稳定性是基础分，尤其在排名接近时影响明显。提交前完整看一遍，确认没有明显波动。</p></div>
+      <div class="guide-item"><div class="n">STEP 06</div><h3>按时提交</h3><p>主题赛按日结算，截止时间固定。建议提前完成，留出复核和调整的时间。</p></div>
+    </div>
+    <div class="analysis" style="margin-top:22px">
+      <h3>观看体验说明</h3>
+      <p>本页面的结构按“主题 → 榜单 → 解析 → 指南 → 答疑”的顺序组织，目的是让不同需求的读者都能快速找到入口。分类筛选集中在顶部快捷入口和分类区，移动端会自动收拢为单列，阅读时不需要频繁缩放。热门推荐和最新更新分开呈现，方便区分“值得看”和“刚更新”两种信息。相关推荐部分则用来扩展浏览路径，如果你喜欢某类主题表达，可以顺着分类入口继续找相似作品。</p>
+      <p>需要说明的是，本页内容以整理和解读为主，不替代官方规则页。具体提交要求、时间节点和评分细则，仍应以赛事官方说明为准。页面中的评分、热度和观众数据为展示用途的模拟信息，用于帮助理解信息结构，不构成对任何具体作品的正式评价。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 数据看板 -->
+<section class="section" id="panel">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>主题大赛骑乘数据看板</h2>
+      <span class="sub">模拟统计 · 仅供阅读参考</span>
+    </div>
+    <div class="panel">
+      <div class="panel-item"><div class="v">1,286</div><div class="k">本周骑乘类提交</div></div>
+      <div class="panel-item"><div class="v">9.4</div><div class="k">当前最高评分</div></div>
+      <div class="panel-item"><div class="v">7</div><div class="k">今日主题关键词</div></div>
+      <div class="panel-item"><div class="v">18%</div><div class="k">参与量周环比</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>每日大赛主题大赛骑乘常见问题</h2>
+      <span class="sub">新手最常问的 6 个问题</span>
+    </div>
+    <div class="faq-grid">
+      <div class="faq"><h3><span class="q">Q1</span>每日大赛主题大赛骑乘的主题是每天更换吗？</h3><p>通常按日更新，每天开放一个新主题，骑乘类作品围绕当日命题提交。主题更换意味着评价标准会随命题侧重点变化，所以看榜单时要结合当天主题判断，不能把不同主题下的排名直接横向比较。</p></div>
+      <div class="faq"><h3><span class="q">Q2</span>主题契合度在评分里占多大比重？</h3><p>主题契合度一般是重要维度之一，与路线设计、节奏推进、转场衔接和稳定性共同构成综合评价。不同主题下各维度权重可能略有调整，但切题始终是基础，偏题作品即使技术完成度高，也容易在综合分上吃亏。</p></div>
+      <div class="faq"><h3><span class="q">Q3</span>第一次参加骑乘主题赛，应该先练什么？</h3><p>建议先练路线结构和节奏层次，而不是一开始就追求高难度。结构清楚、衔接自然、稳定性过关的作品，通常比难度高但节奏散乱的作品得分更稳。等基础稳定后，再逐步增加难度和创意表达。</p></div>
+      <div class="faq"><h3><span class="q">Q4</span>榜单上的热度和评分有什么区别？</h3><p>热度反映讨论量和关注度，评分反映综合评价。两者不完全同步：有的作品讨论热烈但评分中等，有的作品评分靠前但讨论有限。看榜时可以把热度当作“大家在聊什么”，把评分当作“整体完成度如何”。</p></div>
+      <div class="faq"><h3><span class="q">Q5</span>想找特定风格的骑乘作品，怎么浏览更高效？</h3><p>可以先通过分类入口缩小范围，比如按主题方向或表现风格筛选，再结合热门推荐和最新更新交叉查看。如果偏好氛围感强的作品，可以重点关注情绪传达和画面质感相关的标签，效率会更高。</p></div>
+      <div class="faq"><h3><span class="q">Q6</span>主题赛的结果会长期保留吗？</h3><p>每日大赛的榜单通常按日结算，历史结果一般会保留可查，但展示位置会随新主题上线而调整。如果你关注某件作品，建议在当日或次日查看完整评价，避免后续被新内容覆盖后难以回溯。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 用户评论 -->
+<section class="section" id="comments">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>观众与参赛者评论</h2>
+      <span class="sub">近 30 天精选</span>
+    </div>
+    <div class="cmt-wrap">
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#e8551f">林</span><b>林间夜跑</b><span>11-07</span></div><p>今天的主题「城市夜行」挺吃路线叙事的，夜航线那件确实切题，中段切换处理得很干净。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#1f7a8c">陈</span><b>陈默不语</b><span>11-07</span></div><p>逆风坡道稳定性是真的强，但我总觉得主题表达偏保守，评审给高分我能理解，个人偏好还是夜航线。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#5b3f8f">阿</span><b>阿岚看榜</b><span>11-07</span></div><p>每日大赛主题大赛骑乘这个赛制最有意思的就是每天都不一样，昨天第一今天可能掉到第五，看榜得带脑子。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#b8791b">周</span><b>周末补番</b><span>11-06</span></div><p>雨后环线氛围感拉满，湿滑路面的处理很有想法，就是节奏前半段稍微慢了点，看得有点急。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#24425f">小</span><b>小满同学</b><span>11-06</span></div><p>第一次看主题赛，FAQ 那块挺有用，终于搞懂热度和评分为啥不一样了。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#8c5a1f">老</span><b>老城骑手</b><span>11-06</span></div><p>老城窄巷窄路线的空间利用确实漂亮，结尾收得急了点，不然能再往前两名。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#2f6f4e">路</span><b>路过看看</b><span>11-05</span></div><p>双人交替那个创意分给得合理，但前半段铺垫太长了，我看的时候差点划走。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#a33b3b">不</span><b>不吃香菜</b><span>11-05</span></div><p>说句中性的，今天榜单前五完成度都不错，但真正让我眼前一亮的作品其实在第八第九。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#3b5f8a">追</span><b>追更不睡觉</b><span>11-05</span></div><p>每天蹲主题更新已经成习惯了，主题赛的节奏比固定赛制紧凑多了，不容易看腻。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#7a3f8c">阿</span><b>阿吉同学</b><span>11-04</span></div><p>准备这周试试参赛，看完参赛指南感觉路线结构这块确实是我之前的短板。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#c47a1e">慢</span><b>慢慢看</b><span>11-04</span></div><p>希望主题偏离判定能再明确一点，有些作品我觉得挺切题的，评分却一般，有点看不懂。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#1f7a8c">清</span><b>清晨第一杯</b><span>11-03</span></div><p>清晨第一段那件被低估了，稳定性和观感都很舒服，虽然不惊艳但看着不累。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#e8551f">橙</span><b>橙子汽水</b><span>11-03</span></div><p>每日大赛主题大赛骑乘的榜单变化太频繁了，建议收藏这个页面，比到处找更新方便。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#5b3f8f">夜</span><b>夜行灯</b><span>11-02</span></div><p>今天的主题词有点多，七个关键词堆一起，理解成本比平时高，希望以后能收一收。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#2f6f4e">小</span><b>小鹿乱撞</b><span>11-02</span></div><p>转场衔接真的是分水岭，有些作品单段很好看，一切换就散了，可惜。</p></div>
+      <div class="cmt"><div class="cmt-hd"><span class="avatar" style="background:#24425f">汉</span><b>汉堡不加酱</b><span>11-01</span></div><p>推荐看榜单前五加第八第九，中间几件完成度接近，挑自己喜欢的风格就行。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 相关资讯 -->
+<section class="section" id="news">
+  <div class="wrap">
+    <div class="section-hd">
+      <h2>主题大赛骑乘相关资讯</h2>
+      <span class="sub">赛事动态与看点</span>
+    </div>
+    <div class="news-grid">
+      <article class="news"><span class="d">2026-11-07</span><h3>今日主题「城市夜行·骑乘篇」开放提交</h3><p>主题强调路线叙事与节奏切换，评审建议重点关注中段衔接处理。</p></article>
+      <article class="news"><span class="d">2026-11-07</span><h3>榜单机制微调：稳定性权重小幅上调</h3><p>官方说明称调整旨在鼓励完成度更高的骑乘作品，具体细则以规则页为准。</p></article>
+      <article class="news"><span class="d">2026-11-06</span><h3>「雨后环线」进入前三，情绪表达获认可</h3><p>该作品把路面变化转化为节奏变化，被观众评价为氛围感最完整的一作。</p></article>
+      <article class="news"><span class="d">2026-11-06</span><h3>明日主题预告：多段衔接，考验节奏平衡</h3><p>预计重点考察连续路线中的段落分配与转场自然度，适合结构型选手。</p></article>
+      <article class="news"><span class="d">2026-11-05</span><h3>「老城窄巷」入选编辑推荐案例</h3><p>窄巷空间利用被列为示范，编辑短评提到“限制条件下反而更有表达”。</p></article>
+      <article class="news"><span class="d">2026-11-05</span><h3>本周骑乘类提交量环比增长约 18%</h3><p>参与热度上升的同时，评审也提醒参赛者注意主题契合度，避免盲目堆难度。</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer id="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-about">
+        <h4>每日大赛 · 骑乘专题</h4>
+        <p>聚焦每日大赛主题大赛骑乘的赛制解读、榜单追踪与作品看点整理，为观众和参赛者提供集中、清晰的阅读入口。</p>
+        <p>内容以整理与解读为主，具体规则以赛事官方说明为准。</p>
+      </div>
+      <div>
+        <h4>专题导航</h4>
+        <a href="/#hero">专题首页</a>
+        <a href="/#hot-list">热门推荐</a>
+        <a href="/#updates">最新更新</a>
+        <a href="/#deep">深度解析</a>
+      </div>
+      <div>
+        <h4>指南与答疑</h4>
+        <a href="/#guide">参赛指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#panel">数据看板</a>
+        <a href="/#comments">用户评论</a>
+      </div>
+      <div>
+        <h4>友情链接</h4>
+        <a href="/#news">赛事资讯</a>
+        <a href="/#cat">分类入口</a>
+        <a href="/#intro">内容简介</a>
+        <a href="/#top-nav">返回顶部</a>
+      </div>
+    </div>
+    <div class="disclaimer">
+      免责声明：本页面为内容整理与阅读参考页面，页面中涉及的评分、热度、观众数量、更新时间等信息为展示用途的模拟内容，不构成对任何具体作品、赛事结果的正式评价或承诺。赛事规则、提交时间与评分标准请以官方发布为准。若本页内容与官方信息存在差异，以官方信息为准。
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 每日大赛主题大赛骑乘专题 · 内容仅供阅读参考</span>
+      <span>页面更新：2026-11-07</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
